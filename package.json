@@ -5,8 +5,17 @@
   "repository": "git@github.com:zaher-aa/todo-redux.git",
   "author": "zaher-aa <zaherabuamro@gmail.com>",
   "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon server/",
+    "dev:client": "cd client && npm run start"
+  },
   "dependencies": {
+    "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "mongoose": "^6.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
